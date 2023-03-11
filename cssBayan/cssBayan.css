@@ -1,3 +1,76 @@
-.CssBayan {
-border-bottom: 2px solid #808080;
+h1 {
+    color :#b91125;
+    font-family: Snell Roundhand, cursive;
+    border-bottom: 1px solid red;
+}
+body {
+    font-family:Snell Roundhand, cursive;
+    font-size: 24px;
+    line-height: 1.5;
+    background-color: #0e0e15;
+    text-align: center;
+}
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.Bayan {
+margin: 20px auto;   
+}
+.Bayan-item hover {
+color:rgb(211, 0, 0);
+}
+.Bayan-title {
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right:100px;
+}
+.Bayan-title:after {
+    content: "";
+    display: block;
+    border-style: solid;
+    border-width: 8px 5px 0 5px;
+    border-color: #fff transparent transparent transparent;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+.Bayan-title:hover {
+color: #d1051d;
+}
+.Bayan-input {
+    width: 0;
+    height: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+
+.Bayan-input:checked ~ .Bayan-title {
+    background-color: #64151e;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.Bayan-input:checked ~ .Bayan-title:after {
+    border-style: solid;
+    border-width: 0 5px 8px 5px;
+    border-color: transparent transparent #fff transparent;
+}
+
+.Bayan-input:checked ~ .Bayan-content {
+    display: block;
+}
+
+.Bayan-content {
+    display: none;
+}
+.Image:hover{ 
+    transform: scale(1.2);  
 }
