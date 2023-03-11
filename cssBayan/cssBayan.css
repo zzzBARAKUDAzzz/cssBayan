@@ -74,3 +74,19 @@ color: #d1051d;
 .Image:hover{ 
     transform: scale(1.2);  
 }
+@media (min-width: 320px) and (max-width: 520px) {
+   
+    .Image{
+        max-width: 300px;
+    }
+.Bayan-title{
+    margin-right: 93px;
+
+}
+.Bayan-title:after{
+    right:-75px;
+}
+.Image:hover{ 
+    transform: scale(1); 
+}
+}
