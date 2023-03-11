@@ -89,4 +89,7 @@ color: #d1051d;
 .Image:hover{ 
     transform: scale(1); 
 }
+.body{
+    font-size: 16px;
+}
 }
